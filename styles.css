@@ -1,0 +1,151 @@
+body {
+    background-image: url("https://www.rachaelraymag.com/.image/t_share/MTQ4NjgzNTQ1NjA5NTExOTkx/beef-wellington-1108-rr-we02-01.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: rgb(240,240,240);
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text-wrap {
+    word-wrap: break-word;
+}
+
+.center {
+    text-align: center;
+}
+.nav-bar {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+/*styling the links inside the nav-bar */
+.nav-bar a {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*Links change color on hover */
+.nav-bar a:hover {
+    background-color: rgb(240,240,240);
+}
+
+.nav-bar a.active {
+    background-color: #990000;
+    color: white;
+}
+div.header {
+    position: absolute;
+    left: 30%;
+    top: 10%; }
+
+div.position {
+    position: absolute;
+    left: 30%;
+    top: 11%;
+
+}
+h1.header {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: black;
+
+}
+
+h1.header_decorative {
+    font-family: Georgia; serif;
+    font-size: 75px;
+}
+
+#definition {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 25%;
+}
+
+h5 {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 35px;
+color:#990000;
+}
+
+h2 {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 20px;
+color: black;
+}
+.info {
+
+    position: absolute;
+    left: 22%;
+    top: 55%;
+    width: 20%;
+
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+#history {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+
+.history1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #990000;
+    margin: 1em;
+}
+
+.recipe {
+
+    position: absolute;
+    left: 42%;
+    top: 30%;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    padding: 30px;
+    font-size: 20px;
+    
+    
+}
+div.recipe a {
+    font-size: 18px;
+    color: #990000;
+
+    text-decoration: none;
+}
+div.recipe a:hover {
+    color: black;
+}
