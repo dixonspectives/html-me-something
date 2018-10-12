@@ -6,7 +6,14 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
 
+}
+#main-content {
+    position: absolute;
+    float: left;
+    width: 75%;
+    top: 35%;
 }
 .bold {
     font-weight: bold;
@@ -22,6 +29,7 @@ body {
 
 .center {
     text-align: center;
+    float: center;
 }
 .nav-bar {
     background-color: #FFFFFF;
@@ -83,9 +91,19 @@ h1.header_decorative {
     background-color: white;
     padding-left: 20px;
     padding-right: 20px;
-    width: 25%;
+    width: 500px;
+    margin-top:50px;
 }
+.top-bar {
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  width: 1000px;
+  height: 50px; 
+  background-color: #990000;
+  z-index: 1;
 
+}
 h5 {
 font-family: Helvetica, Arial, sans-serif;
 font-size: 35px;
@@ -114,8 +132,9 @@ p {
 
 #history {
     position: absolute;
-    top: 55%;
-    left: 45%;
+    left: 15%;
+    margin-top: 250px;
+    margin-left: 520px;
 }
 
 .history1 {
@@ -130,13 +149,14 @@ p {
 .recipe {
 
     position: absolute;
-    left: 42%;
-    top: 30%;
-    width: 400px;
+    top: 50px;
+    left: 15%;
+    width: 420px;
     height: 100px;
     background-color: white;
     padding: 30px;
     font-size: 20px;
+    margin-left:520px;
     
     
 }
@@ -148,4 +168,13 @@ div.recipe a {
 }
 div.recipe a:hover {
     color: black;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(180,180,180);
+    height: 40px;
+
 }
